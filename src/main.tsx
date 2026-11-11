@@ -16,7 +16,7 @@ import {
   initialCartState,
 } from "./lib/cartReducer";
 import type { Product } from "./types/product";
-
+ 
 // TEMPORARY: delete after checking the console.
 const demo = { id: 1, name: "Mug", price: 19.99 } as Product;
 let cart = cartReducer(initialCartState, { type: "add", product: demo });
